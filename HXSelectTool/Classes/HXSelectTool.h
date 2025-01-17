@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <HXPhotoPicker/HXPhotoPicker.h>
+#import "HXPhotoPicker.h"
 
 NS_ASSUME_NONNULL_BEGIN
 typedef void(^SelectedPhotoBackBlock)(NSArray <UIImage *>*photos, NSArray <HXPhotoModel *>*models, HXPhotoManager *photoManager);
