@@ -95,7 +95,6 @@
 				FED8DD1F8E48472E18189348 /* Pods-HXSelectTool.debug.xcconfig */,
 				F4F6E1765A67477B59F6BF33 /* Pods-HXSelectTool.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -528,7 +527,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L6A23453T4;
+				DEVELOPMENT_TEAM = PUR4K646G5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HXSelectTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -541,7 +540,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.5dmg.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -556,7 +555,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = L6A23453T4;
+				DEVELOPMENT_TEAM = PUR4K646G5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HXSelectTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -569,7 +568,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.sinodata.test1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.5dmg.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
