@@ -7,6 +7,7 @@
 //
 
 #import "HXSelectTool.h"
+#import <HXPhotoPicker/HXPhotoPicker.h>
 
 @interface HXSelectTool ()
 @property (nonatomic, strong) HXPhotoManager *photoManager;
