@@ -133,5 +133,4 @@
     return _photoManager;
 }
 
-
 @end
