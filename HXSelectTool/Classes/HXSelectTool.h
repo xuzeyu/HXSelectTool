@@ -6,12 +6,10 @@
 //  Copyright © 2020 sinodata. All rights reserved.
 //
 
-
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <HXPhotoPicker/HXPhotoPicker.h>
 
 NS_ASSUME_NONNULL_BEGIN
-@class HXPhotoModel;
-@class HXPhotoManager;
 typedef void(^SelectedPhotoBackBlock)(NSArray <UIImage *>*photos, NSArray <HXPhotoModel *>*models, HXPhotoManager *photoManager);
 
 @interface HXSelectTool : NSObject
@@ -19,7 +17,7 @@ typedef void(^SelectedPhotoBackBlock)(NSArray <UIImage *>*photos, NSArray <HXPho
 + (NSArray *)getHXSelectImgs:(NSArray *)photos;
 + (void)choosePhotoInVC:(UIViewController *)vc photoCount:(NSInteger)photoCount complete:(SelectedPhotoBackBlock)complete;
 + (void)openCameraInVC:(UIViewController *)vc photoCount:(NSInteger)photoCount complete:(SelectedPhotoBackBlock)complete;
-+ (void)openCameraInVC:(UIViewController *)vc photoCount:(NSInteger)photoCount type:(NSUInteger)type complete:(SelectedPhotoBackBlock)complete ;
++ (void)openCameraInVC:(UIViewController *)vc photoCount:(NSInteger)photoCount type:(HXPhotoManagerSelectedType)type complete:(SelectedPhotoBackBlock)complete ;
 + (void)openLibraryInVC:(UIViewController *)vc photoCount:(NSInteger)photoCount complete:(SelectedPhotoBackBlock)complete;
 
 @end
